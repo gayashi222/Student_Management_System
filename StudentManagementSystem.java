@@ -79,8 +79,8 @@ public class StudentManagementSystem {
  
         System.out.println("\nStudent Records");
  
-        for (int i = 0; i < students.size(); i++) {
-            students.get(i).displayDetails();
+        for (Student student : students) {
+            students.displayDetails();
         }
     }
  
