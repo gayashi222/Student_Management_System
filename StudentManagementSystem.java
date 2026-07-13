@@ -31,7 +31,7 @@ public class StudentManagementSystem {
                     deleteStudent();
                     break;
                 case 0:
-                    System.out.println("Program closed.");
+                    System.out.println("Thank you for using the Student Management System.");
                     break;
                 default:
                     System.out.println("Invalid choice. Please try again.");
