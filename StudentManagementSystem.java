@@ -80,7 +80,7 @@ public class StudentManagementSystem {
         System.out.println("\nStudent Records");
  
         for (Student student : students) {
-            students.displayDetails();
+            student.displayDetails();
         }
     }
  
